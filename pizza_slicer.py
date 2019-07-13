@@ -13,7 +13,7 @@ print("Введите начальный и конечный индексы дл
 print("Для выхода нажмите Enter...")
 start = None
 while start != "":
-    start = (input("\n Начальная позиция: "))
+    start = (input("\nНачальная позиция: "))
     if start:
         start = int(start)
         finish = int(input("Конечная позиция: "))
